@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-300;
+}
+
+.container {
+  max-width: 100%;
+  background-image: url("./assets/57312.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
